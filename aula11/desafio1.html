@@ -15,16 +15,19 @@
     <label for="ipais">Digite o seu Páis de origem</label>
     <input type="text" name="pais" id="ipais">
     <input type="button" value="Verificar" onclick="clicou()">
+    <div id="res"></div>
     <script>
-        var pais = document.getElementById('ipais')
         function clicou() {
-        }
-            if (pais = 'Brasil') {
-                document.write(`Voce é Brasileiro`)
-            } else {
-                document.write(`Voce é Estrangeiro`)
+            var pais = document.querySelector('input#ipais')
+            var res = document.querySelector('div#res')
+            var val = pais.value.toLowerCase() // Para converter para minuscula e pegar o valor
+            res.innerHTML = 'Voce é '
+            if (val == 'brasil') { //== - igual | = - contem
+                res.innerHTML += 'BRASILEIRO'
+            }else {
+                res.innerHTML += 'Estrangeiro'
             }
-
+        }
     </script>
 </body>
 </html>
