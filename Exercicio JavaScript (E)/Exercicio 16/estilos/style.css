@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(70, 142, 236);
+    font: normal 15pt Arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.178);
+}
+div {
+    padding: 10px;
+    
+}
+div#res {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-style: italic;
+}
+img#photo {
+    display: block;
+    margin: auto;
+    padding: 10px;
+} /* #photo aqui é o id que eu coloquei pra identificar a imagem.*/
