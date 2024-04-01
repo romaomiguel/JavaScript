@@ -1,9 +1,9 @@
 function contar() {
+    //PEGANDO AS VARIAVEIS
     let inicio = document.getElementById('txtinicio').value
     let fim = document.getElementById('txtfim').value
     let passo = document.getElementById('txtpasso').value
     let res = document.getElementById('res')
-    //PEGANDO AS VARIAVEIS
 
     if (inicio == 0 && fim == 0 && passo == 0){
         alert('[ERRO] FALTAM DADOS!')
