@@ -1,18 +1,18 @@
 
-let valores = [1, 5, 6, 2, 9]
+/*let valores = [1, 5, 6, 2, 9]
 let pos = valores.indexOf(5)
 if (pos == -1){
     console.log('O valor não foi encontrado')
 }else {
     console.log(`o valor esta na posição ${pos}`) 
-} //Buscando Valores
+} //Buscando Valores*/
 
 
-/*let valores = [1, 5, 6, 2, 9]
+let valores = [1, 5, 6, 2, 9]
 for (let pos in valores) {
     console.log(`A posiçao ${pos} tem o valor${valores[pos]}`)
 } 
-- Exibição de array, jeito simplificado*/
+// Exibição de array, jeito simplificado
 
 
 /*let valores = [1, 5, 6, 2, 9]
